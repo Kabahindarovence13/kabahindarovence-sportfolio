@@ -1,0 +1,316 @@
+
+* {
+    box-sizing: border-box;
+  }
+  #top_navbar {
+    background-color:black;
+    position:relative; 
+    width:100%;
+    height: 30%;
+    padding: 16px ; 
+    margin-right: 30%; 
+}
+
+#top_navbar a{
+float:right;
+left:100px;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:  18px;
+font-family: 'Gotham Light';
+
+
+
+
+
+
+
+}
+#top_navbar a:hover{
+    background-color:white;
+    color:black;
+}
+
+
+
+#image-container{
+    position:relative;
+   
+    
+}
+
+#rovence{
+    position: relative;
+  float: right;  
+width:100%;
+height: 100%;
+}
+
+#home-page-content{
+
+    position:absolute;
+    top:300px;
+    left:1%;
+    right:70%;
+    width:500px;
+    border: 2px 2px 2px 2px;
+    font-size: 18px;
+    color:#C5C6C7;
+    font-family: 'Gotham Light';
+
+    }
+    .welcome{
+        font-family: 'Gotham Medium';
+    }
+    #name{
+        font-family: 'Gotham Medium';
+        font-size: 25px;
+    }
+    .contacts{
+        text-align: center;
+    }
+   #social-media-icons a img{
+       display: inline;
+       margin: 0 5px;
+    width: 30px;
+       height: 30px;
+       font-size: 30px;
+       background-size: 30px;
+       
+      
+  
+   }
+
+    #button1{
+      font-size:18px;
+      font-family: 'Gotham Light';
+      border-radius: 15px 0px 0px 15px;
+      width:1.9cm;
+      height:0.8cm;
+      float: left;
+      margin: 0 1.0px;
+    }
+    #button2{
+        border-radius: 0px 15px 15px 0px;
+         float: right;
+         margin: 0 1.5px;
+    }
+  #cv-download{
+        height:0.6cm;
+        width:0.6cm;
+        background-color: white;    
+    }
+    #cv{
+
+        display: inline-block;
+    }
+
+
+    body{
+
+    }
+
+    #what-i-do{
+        position: absolute;
+  
+         font-size: 18px;
+         text-align: center;
+         top:130%;
+color:black;
+         font-family: 'Gotham Light';
+        
+    }
+    #icons p{
+        font-family: 'Gotham Medium';
+    }
+    #what-i-do .content{
+        text-align: left;
+    }
+
+    #header1{
+       background-color: black;
+       color: white;
+       font-family: 'Gotham Bold';
+       font-size: 21px;
+       height: 1cm;
+       width: 6cm;
+       border-radius: 10px;
+       text-align: center;
+       margin-top: 10px;
+    }
+    #header2{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Gotham Light';
+        font-size: 18px;
+        border-radius: 10px;
+        margin-left: 2cm;
+    }
+
+    /*css for portfolio*/
+    .container-overall{
+        position: relative;
+        padding-top: 80%;
+        margin-bottom: 15%;
+    }
+
+.card{
+   
+    border-radius: 10px;
+    width:30%;
+    box-shadow:0px 0px 1.5px 1.5px grey;
+    float: left;
+    
+  
+   
+}
+.card:hover{
+    box-shadow:0 8px 16px 0 grey;
+}
+.container{
+   padding:5px;
+
+}
+.developer{
+    margin-left: 4cm;
+    margin-top: 1cm;
+    width: 30px;
+        height: 30px;
+        font-size: 30px;
+        background-size: 30px
+    
+}
+.dev{
+    text-align: center;
+    font-family: 'Gotham Light';
+    font-size: 18px;
+    
+}
+#frameworks{
+    font-family: 'Gotham Light';
+    font-size: 12px;
+}
+#icons{
+   
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+
+  
+
+}
+.iconimage{
+    
+    margin: 0px 110px 10px 60px;
+   display: inline-block;
+   text-align: center;
+  
+       
+}
+.images{
+   
+    margin: 30px 100px 0px 50px;
+   width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+.content{
+    margin: 0px 80px 0px 60px;
+}
+/*add code here*/
+.design{
+    margin-bottom: 1cm;
+  margin: 5px;
+ width: 30px;
+    height: 30px;
+    
+}
+.design-icons{
+    margin-left:3cm;
+}
+/*add code here to sort icons*/
+.skills-container{
+ width:90% ;
+ height:25% ;
+display: inline-block;
+
+}
+    .skills-icons{
+ 
+        margin: 20px -20px 10px 40px;
+        width: 60px;
+           height: 40px;
+           font-size: 30px;
+    }
+ 
+
+
+.container2{
+    padding:10px;
+    width:100%; 
+    text-align: center;  
+    display: flex;
+   flex-wrap: wrap;
+   
+  
+
+}
+.card2{
+
+    width:250%; 
+    font-family: 'Gotham Medium'; 
+    font-size: 12px;
+    box-shadow:0px 1.5px 1.5px 1.5px grey;
+    border-radius: 10px;
+   
+    padding: 5px;
+    background-color: white;
+}
+.first-card{
+    width: 35%;  
+}
+
+
+.second-card{
+    display:flex;
+  flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow:0px 0px 1.5px 1.5px grey;
+    background-color: grey;
+    margin: 0px -20px 0px 50px;
+    width: 65%;
+    float: right;
+    
+}
+.portfolio{
+    font-family: 'Gotham Light';
+    font-size: 18px;
+}
+
+.card-images{
+    box-shadow:0px 0px 1.5px 1.5px red ;
+    border-radius: 10px;
+}
+
+/*for the entire row*/
+.row {
+   width:100% ;
+   height:60% ;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+footer{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:#0B0C10;
+    color:#C5C6C7;
+    text-align: center;
+}
+
+
